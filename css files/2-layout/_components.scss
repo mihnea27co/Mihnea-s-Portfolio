@@ -216,10 +216,22 @@ main {
   text-align: center;
 
   h2 {
+    position: relative;
     margin: 0;
     padding: 0;
     font-family: "Montserrat";
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+
+  h2::before {
+    width: 40px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: $cardBackground;
+    transform: translateX(-50%);
   }
 }
 
@@ -232,13 +244,17 @@ main {
     padding: 30px 0;
     position: relative;
   }
-  p:before {
-    content: "";
-    position: absolute;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    background-color: $mainRedColor;
-    transform: translate(5px, -60px);
-  }
+  // p:before {
+  //   content: "";
+  //   position: absolute;
+  //   height: 60px;
+  //   width: 60px;
+  //   border-radius: 50%;
+  //   background-color: $mainRedColor;
+  //   transform: translate(5px, -20px);
+  // }
+}
+
+footer {
+  min-height: 500vh;
 }

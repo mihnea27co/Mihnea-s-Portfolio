@@ -232,10 +232,21 @@ main {
   text-align: center;
 }
 main h2 {
+  position: relative;
   margin: 0;
   padding: 0;
   font-family: "Montserrat";
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+main h2::before {
+  width: 40px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: #6C63FF;
+  transform: translateX(-50%);
 }
 
 .abilitati {
@@ -248,14 +259,9 @@ main h2 {
   padding: 30px 0;
   position: relative;
 }
-.abilitati p:before {
-  content: "";
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  background-color: #FF6584;
-  transform: translate(5px, -60px);
+
+footer {
+  min-height: 500vh;
 }
 
 @media screen and (min-width: 500px) {
