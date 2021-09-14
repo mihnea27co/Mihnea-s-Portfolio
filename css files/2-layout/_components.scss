@@ -1,86 +1,86 @@
-body{
-    background: url('/Assets/background.svg') no-repeat;
-    background-size: contain;
+body {
+  background: url("/Assets/background.svg") no-repeat;
+  background-size: contain;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 nav ul {
-    position: absolute;
-    inset: 0;
-    list-style: none;
-    background-color: $mainFontColor;
-    z-index: 99;
-    :first-child{
-        margin-top: 300px;
+  position: absolute;
+  inset: 0;
+  list-style: none;
+  background-color: $mainFontColor;
+  z-index: 99;
+  :first-child {
+    margin-top: 300px;
+  }
+  li {
+    margin: 0;
+    padding: 0 0 70px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: $darkBgColor;
+    a {
+      text-decoration: none;
+      color: $darkBgColor;
     }
-    li{
-        margin: 0;
-        padding: 0 0 70px;
-        font-family: 'Montserrat';
-        font-size: 20px;
-        font-weight: 600;
-        text-align: center;
-        color: $darkBgColor;
-        a{
-            text-decoration: none;
-            color: $darkBgColor;
-        }
-    }   
+  }
 }
 
-.red{
-    color: $mainRedColor;
+.red {
+  color: $mainRedColor;
 }
 
-.showHide{
-    display: none;
-    transition: all 1s ease-in-out;
+.showHide {
+  display: none;
+  transition: all 1s ease-in-out;
 }
 
-.menu-button{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    transition: all .5s ease-in-out;
-    z-index: 100;
+.menu-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  z-index: 100;
 }
 
-.menu-burger{
-    width: 40px;
-    height: 4px;
-    background-color: $darkBgColor;
-    border-radius: 1px;
-    box-shadow: 0 2px 10px $boxShadowColor;
-    transition: all .5s ease-in-out;
+.menu-burger {
+  width: 40px;
+  height: 4px;
+  background-color: $darkBgColor;
+  border-radius: 1px;
+  box-shadow: 0 2px 10px $boxShadowColor;
+  transition: all 0.5s ease-in-out;
 }
 
-.menu-burger::before, 
-.menu-burger::after{
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 4px;
-    background-color: $darkBgColor;
-    border-radius: 1px;
-    box-shadow: 0 2px 10px $boxShadowColor;
-    transition: all .5s ease-in-out;
+.menu-burger::before,
+.menu-burger::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  background-color: $darkBgColor;
+  border-radius: 1px;
+  box-shadow: 0 2px 10px $boxShadowColor;
+  transition: all 0.5s ease-in-out;
 }
 
-.menu-burger::before{
-    transform: translateY(-12px);
+.menu-burger::before {
+  transform: translateY(-12px);
 }
-.menu-burger::after{
-    transform: translateY(12px);
+.menu-burger::after {
+  transform: translateY(12px);
 }
 
 /**
@@ -88,143 +88,157 @@ Animation
 **/
 
 .open .menu-burger {
-    transform: translateX(-50px);
-    background: transparent;
-    box-shadow: none;
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
 }
 .open .menu-burger::before {
-    transform: rotate(45deg) translate(35px, -35px);
+  transform: rotate(45deg) translate(35px, -35px);
 }
 .open .menu-burger::after {
-    transform: rotate(-45deg) translate(35px, 35px);
+  transform: rotate(-45deg) translate(35px, 35px);
 }
 
-.info-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: $mainFontColor;
-    p{
-        margin: 0;
-        padding: 0;
-        font-family: 'Montserrat';
-        font-size: 18px;
-    }
-    span{
-        text-align: center;
-        text-transform: uppercase;
-        margin: 50px 0 10px 0;
-        padding: 15px 70px;
-        color: $darkBgColor;
-        background-color: $mainFontColor;
-        font-family: 'Montserrat';
-        border-radius: 25px;
-    }
-
-    span:hover{
-        cursor: pointer;
-        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-        transform: translate3d(0, 0, 0);
-        backface-visibility: hidden;
-        perspective: 1000px;
-    }
-
-    @keyframes shake {
-        10%, 90% {transform: translate3d(-1px, 0, 0); }
-        20%, 80% {transform: translate3d(2px, 0, 0);  }
-        30%, 50%, 70% {transform: translate3d(-4px, 0, 0);}
-        40%, 60% {transform: translate3d(4px, 0, 0);}
-    }
-
-    span:active{
-        background: $cardBackground;
-        transition: all ease-in-out;
-        color: $mainFontColor;
-    }
-}
-
-.name-tag{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.name-tag{
-    margin-bottom: 40px;
-    width: 234px;
-    height: 170px;
-    background: $cardBackground;
-    border-radius: 20px;
-    padding: 5px 0;
-    transform: rotate(-5deg);
-    h2, h5{
-        margin: 0;
-        padding: 0;
-    }
-
-}
-
-.middle-tag{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1em;
+  color: $mainFontColor;
+  p {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    font-size: 18px;
+  }
+  span {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0 10px 0;
+    padding: 15px 70px;
     color: $darkBgColor;
-    background: $mainFontColor;
-    margin: 5px 0;
-    width: 232px;
-    height: 90px;
-    text-align: center;
-    font-family: 'Allison';
-    font-size: 45px;
-    h1{
-        margin: 0;
-        padding: 0;
+    background-color: $mainFontColor;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 18px;
+    border-radius: 25px;
+  }
+
+  span:hover {
+    cursor: pointer;
+    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  @keyframes shake {
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
     }
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+  span:active {
+    background: $cardBackground;
+    transition: all ease-in-out;
+    color: $mainFontColor;
+  }
 }
 
-.image-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 10px;
-    :nth-child(2){
-        margin-top: 60px;
-    }
+.name-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-main{
-    margin: 50px 0;
-    padding-top: 15px;
-    text-align: center;
-
-    h2{
-        margin: 0;
-        padding: 0;
-        font-family: 'Montserrat';
-        margin-bottom: 30px;
-    }
-
-
+.name-tag {
+  margin-bottom: 40px;
+  width: 234px;
+  height: 170px;
+  background: $cardBackground;
+  border-radius: 20px;
+  padding: 5px 0;
+  transform: rotate(-5deg);
+  h2,
+  h5 {
+    margin: 0;
+    padding: 0;
+  }
 }
 
-.abilitati{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin-top: 20px;
-    p{
-        padding: 30px 0;
-        position: relative;
-    }
-    p:before{
-        content: "";
-        position: absolute;
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        background-color: $mainRedColor;
-        transform: translate(5px, -60px);
-    }
+.middle-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $darkBgColor;
+  background: $mainFontColor;
+  margin: 5px 0;
+  width: 232px;
+  height: 90px;
+  text-align: center;
+  font-family: "Allison";
+  font-size: 45px;
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  :nth-child(2) {
+    margin-top: 60px;
+  }
+}
+
+main {
+  margin: 3em 0;
+  padding-top: 10em;
+  text-align: center;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+  }
+}
+
+.abilitati {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 20px;
+  p {
+    padding: 30px 0;
+    position: relative;
+  }
+  p:before {
+    content: "";
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: $mainRedColor;
+    transform: translate(5px, -60px);
+  }
 }
