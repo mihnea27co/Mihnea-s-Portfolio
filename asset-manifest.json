@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.94505119.css",
+    "main.js": "/static/js/main.6775f375.js",
+    "static/media/eclipse_bg.png": "/static/media/eclipse_bg.aef984539cf888963f06.png",
+    "static/media/react.png": "/static/media/react.0438bc55125799597f93.png",
+    "static/media/LOGO_NOBG.png": "/static/media/LOGO_NOBG.31191a2b585693d4f954.png",
+    "static/media/sass.png": "/static/media/sass.36e863bfbcb25c109d00.png",
+    "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
+    "static/media/Mann_am_Komputer.svg": "/static/media/Mann_am_Komputer.05492849175c85424c390ee525976c1a.svg",
+    "index.html": "/index.html",
+    "main.94505119.css.map": "/static/css/main.94505119.css.map",
+    "main.6775f375.js.map": "/static/js/main.6775f375.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94505119.css",
+    "static/js/main.6775f375.js"
+  ]
+}
