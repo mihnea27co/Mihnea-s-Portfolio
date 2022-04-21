@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.398536fa.css",
-    "main.js": "/static/js/main.6775f375.js",
+    "main.css": "/static/css/main.247d1427.css",
+    "main.js": "/static/js/main.35fd4d01.js",
+    "static/media/mihnea_v3.png": "/static/media/mihnea_v3.d5e124556a2888af8378.png",
     "static/media/eclipse_bg.png": "/static/media/eclipse_bg.aef984539cf888963f06.png",
     "static/media/react.png": "/static/media/react.0438bc55125799597f93.png",
     "static/media/LOGO_NOBG.png": "/static/media/LOGO_NOBG.31191a2b585693d4f954.png",
@@ -9,11 +10,11 @@
     "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/Mann_am_Komputer.svg": "/static/media/Mann_am_Komputer.05492849175c85424c390ee525976c1a.svg",
     "index.html": "/index.html",
-    "main.398536fa.css.map": "/static/css/main.398536fa.css.map",
-    "main.6775f375.js.map": "/static/js/main.6775f375.js.map"
+    "main.247d1427.css.map": "/static/css/main.247d1427.css.map",
+    "main.35fd4d01.js.map": "/static/js/main.35fd4d01.js.map"
   },
   "entrypoints": [
-    "static/css/main.398536fa.css",
-    "static/js/main.6775f375.js"
+    "static/css/main.247d1427.css",
+    "static/js/main.35fd4d01.js"
   ]
 }
