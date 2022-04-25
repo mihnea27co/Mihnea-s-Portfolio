@@ -1,20 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.70c52775.css",
-    "main.js": "/static/js/main.0c092edb.js",
+    "main.css": "/static/css/main.3f225597.css",
+    "main.js": "/static/js/main.2022a475.js",
     "static/media/test3.jpg": "/static/media/test3.ac2d6abcb90fc196cd16.jpg",
+    "static/media/Logic-Pro-X-logo.png": "/static/media/Logic-Pro-X-logo.c728eff596a348faf34b.png",
+    "static/media/react-logo.png": "/static/media/react-logo.8652b3d426b2a537a180.png",
+    "static/media/lightroom-logo.png": "/static/media/lightroom-logo.85dd467bcfa588cf00c1.png",
+    "static/media/sass-logo.png": "/static/media/sass-logo.9521e1fd253bb1f208ff.png",
+    "static/media/sequelize-logo.png": "/static/media/sequelize-logo.a1cf45b210efe96c90ca.png",
+    "static/media/photoshop-logo.png": "/static/media/photoshop-logo.28311a1b4b1e2785d5b5.png",
+    "static/media/node-js-logo.png": "/static/media/node-js-logo.3fe72410e9d458a21d7d.png",
+    "static/media/my-sql-logo.png": "/static/media/my-sql-logo.86dce9677a789703529d.png",
+    "static/media/sketchup-logo.png": "/static/media/sketchup-logo.2b971f75f4c4b30c84d6.png",
+    "static/media/bootstrap-logo.png": "/static/media/bootstrap-logo.4bc33445e771f1fb484d.png",
+    "static/media/rest-api-logo.png": "/static/media/rest-api-logo.8aded8913b03bdd0224d.png",
+    "static/media/javascript-logo.png": "/static/media/javascript-logo.abd0c61ab510bc808739.png",
+    "static/media/html-logo.png": "/static/media/html-logo.21cd88b41963cf320bf9.png",
+    "static/media/adobe_audition-logo.png": "/static/media/adobe_audition-logo.c3b30a1ce544fb8638b7.png",
+    "static/media/postman-logo.png": "/static/media/postman-logo.bb9f5bf9ec36c10308d2.png",
+    "static/media/figma-logo.png": "/static/media/figma-logo.fbfa35fe0a517aa50b60.png",
     "static/media/eclipse_bg.png": "/static/media/eclipse_bg.aef984539cf888963f06.png",
+    "static/media/express-logo.png": "/static/media/express-logo.093a9a2253eaf9989109.png",
+    "static/media/github-logo.png": "/static/media/github-logo.e381aa39a51638ccb7dc.png",
     "static/media/react.png": "/static/media/react.0438bc55125799597f93.png",
     "static/media/LOGO_NOBG.png": "/static/media/LOGO_NOBG.31191a2b585693d4f954.png",
     "static/media/sass.png": "/static/media/sass.36e863bfbcb25c109d00.png",
     "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/Mann_am_Komputer.svg": "/static/media/Mann_am_Komputer.05492849175c85424c390ee525976c1a.svg",
     "index.html": "/index.html",
-    "main.70c52775.css.map": "/static/css/main.70c52775.css.map",
-    "main.0c092edb.js.map": "/static/js/main.0c092edb.js.map"
+    "main.3f225597.css.map": "/static/css/main.3f225597.css.map",
+    "main.2022a475.js.map": "/static/js/main.2022a475.js.map"
   },
   "entrypoints": [
-    "static/css/main.70c52775.css",
-    "static/js/main.0c092edb.js"
+    "static/css/main.3f225597.css",
+    "static/js/main.2022a475.js"
   ]
 }
