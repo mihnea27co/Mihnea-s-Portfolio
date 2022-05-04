@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.922680e0.css",
-    "main.js": "/static/js/main.d130dcb7.js",
+    "main.js": "/static/js/main.bf30b5dd.js",
     "static/media/mihnea_new02.jpg": "/static/media/mihnea_new02.0a5265eef88626da63f4.jpg",
     "static/media/Logic-Pro-X-logo.png": "/static/media/Logic-Pro-X-logo.c728eff596a348faf34b.png",
     "static/media/react-logo.png": "/static/media/react-logo.8652b3d426b2a537a180.png",
@@ -29,10 +29,10 @@
     "static/media/Mann_am_Komputer.svg": "/static/media/Mann_am_Komputer.05492849175c85424c390ee525976c1a.svg",
     "index.html": "/index.html",
     "main.922680e0.css.map": "/static/css/main.922680e0.css.map",
-    "main.d130dcb7.js.map": "/static/js/main.d130dcb7.js.map"
+    "main.bf30b5dd.js.map": "/static/js/main.bf30b5dd.js.map"
   },
   "entrypoints": [
     "static/css/main.922680e0.css",
-    "static/js/main.d130dcb7.js"
+    "static/js/main.bf30b5dd.js"
   ]
 }
