@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.922680e0.css",
-    "main.js": "/static/js/main.bf30b5dd.js",
+    "main.css": "/static/css/main.84e40edc.css",
+    "main.js": "/static/js/main.ab1569a6.js",
     "static/media/mihnea_new02.jpg": "/static/media/mihnea_new02.0a5265eef88626da63f4.jpg",
     "static/media/Logic-Pro-X-logo.png": "/static/media/Logic-Pro-X-logo.c728eff596a348faf34b.png",
     "static/media/react-logo.png": "/static/media/react-logo.8652b3d426b2a537a180.png",
@@ -16,6 +16,7 @@
     "static/media/rest-api-logo.png": "/static/media/rest-api-logo.8aded8913b03bdd0224d.png",
     "static/media/javascript-logo.png": "/static/media/javascript-logo.abd0c61ab510bc808739.png",
     "static/media/html-logo.png": "/static/media/html-logo.21cd88b41963cf320bf9.png",
+    "static/media/us-flag.jpeg": "/static/media/us-flag.f7f6b6fcd9698411bfb5.jpeg",
     "static/media/adobe_audition-logo.png": "/static/media/adobe_audition-logo.c3b30a1ce544fb8638b7.png",
     "static/media/postman-logo.png": "/static/media/postman-logo.bb9f5bf9ec36c10308d2.png",
     "static/media/figma-logo.png": "/static/media/figma-logo.fbfa35fe0a517aa50b60.png",
@@ -28,11 +29,11 @@
     "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/Mann_am_Komputer.svg": "/static/media/Mann_am_Komputer.05492849175c85424c390ee525976c1a.svg",
     "index.html": "/index.html",
-    "main.922680e0.css.map": "/static/css/main.922680e0.css.map",
-    "main.bf30b5dd.js.map": "/static/js/main.bf30b5dd.js.map"
+    "main.84e40edc.css.map": "/static/css/main.84e40edc.css.map",
+    "main.ab1569a6.js.map": "/static/js/main.ab1569a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.922680e0.css",
-    "static/js/main.bf30b5dd.js"
+    "static/css/main.84e40edc.css",
+    "static/js/main.ab1569a6.js"
   ]
 }
