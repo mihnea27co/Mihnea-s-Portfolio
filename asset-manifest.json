@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.84e40edc.css",
-    "main.js": "/static/js/main.ab1569a6.js",
+    "main.css": "/static/css/main.18105b61.css",
+    "main.js": "/static/js/main.6e99374c.js",
     "static/media/mihnea_new02.jpg": "/static/media/mihnea_new02.0a5265eef88626da63f4.jpg",
     "static/media/Logic-Pro-X-logo.png": "/static/media/Logic-Pro-X-logo.c728eff596a348faf34b.png",
     "static/media/react-logo.png": "/static/media/react-logo.8652b3d426b2a537a180.png",
@@ -29,11 +29,11 @@
     "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/Mann_am_Komputer.svg": "/static/media/Mann_am_Komputer.05492849175c85424c390ee525976c1a.svg",
     "index.html": "/index.html",
-    "main.84e40edc.css.map": "/static/css/main.84e40edc.css.map",
-    "main.ab1569a6.js.map": "/static/js/main.ab1569a6.js.map"
+    "main.18105b61.css.map": "/static/css/main.18105b61.css.map",
+    "main.6e99374c.js.map": "/static/js/main.6e99374c.js.map"
   },
   "entrypoints": [
-    "static/css/main.84e40edc.css",
-    "static/js/main.ab1569a6.js"
+    "static/css/main.18105b61.css",
+    "static/js/main.6e99374c.js"
   ]
 }
