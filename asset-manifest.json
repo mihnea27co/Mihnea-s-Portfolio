@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.31f6af5b.css",
-    "main.js": "/static/js/main.09fb885e.js",
+    "main.css": "/static/css/main.e94985d0.css",
+    "main.js": "/static/js/main.f4dd282c.js",
     "static/media/mihnea_new02.jpg": "/static/media/mihnea_new02.f2727de51dca2c54469b.jpg",
     "static/media/Logic-Pro-X-logo.png": "/static/media/Logic-Pro-X-logo.e907f9682e04e70245b8.png",
     "static/media/bootstrap-logo.png": "/static/media/bootstrap-logo.9bbe82604a0f45438483.png",
     "static/media/react-logo.png": "/static/media/react-logo.318619be08d36943e8fd.png",
+    "static/media/Audio_Kompressor2.png": "/static/media/Audio_Kompressor2.3fa166cfd49ce1cb8483.png",
     "static/media/rest-api-logo.png": "/static/media/rest-api-logo.0ae6c07a9c1e24544c62.png",
     "static/media/adobe_audition-logo.png": "/static/media/adobe_audition-logo.8c537e0a591a7e02bdb6.png",
     "static/media/lightroom-logo.png": "/static/media/lightroom-logo.6f2bda2d49a1c5e4a0fd.png",
@@ -27,11 +28,11 @@
     "static/media/github-logo.png": "/static/media/github-logo.2b55b6922de071a0dd5b.png",
     "static/media/Mann_am_Komputer.svg": "/static/media/Mann_am_Komputer.05492849175c85424c390ee525976c1a.svg",
     "index.html": "/index.html",
-    "main.31f6af5b.css.map": "/static/css/main.31f6af5b.css.map",
-    "main.09fb885e.js.map": "/static/js/main.09fb885e.js.map"
+    "main.e94985d0.css.map": "/static/css/main.e94985d0.css.map",
+    "main.f4dd282c.js.map": "/static/js/main.f4dd282c.js.map"
   },
   "entrypoints": [
-    "static/css/main.31f6af5b.css",
-    "static/js/main.09fb885e.js"
+    "static/css/main.e94985d0.css",
+    "static/js/main.f4dd282c.js"
   ]
 }
