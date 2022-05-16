@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.e94985d0.css",
-    "main.js": "/static/js/main.2dd21599.js",
+    "main.js": "/static/js/main.fa85bf3a.js",
     "static/media/mihnea_new02.jpg": "/static/media/mihnea_new02.f2727de51dca2c54469b.jpg",
     "static/media/Business_Coaching.png": "/static/media/Business_Coaching.0abf6b44a9865172d34a.png",
     "static/media/Logic-Pro-X-logo.png": "/static/media/Logic-Pro-X-logo.e907f9682e04e70245b8.png",
     "static/media/bootstrap-logo.png": "/static/media/bootstrap-logo.9bbe82604a0f45438483.png",
+    "static/media/Tradino.png": "/static/media/Tradino.d511a0efc7d9df33492d.png",
     "static/media/react-logo.png": "/static/media/react-logo.318619be08d36943e8fd.png",
     "static/media/Audio_Kompressor2.png": "/static/media/Audio_Kompressor2.3fa166cfd49ce1cb8483.png",
     "static/media/rest-api-logo.png": "/static/media/rest-api-logo.0ae6c07a9c1e24544c62.png",
@@ -30,10 +31,10 @@
     "static/media/Mann_am_Komputer.svg": "/static/media/Mann_am_Komputer.05492849175c85424c390ee525976c1a.svg",
     "index.html": "/index.html",
     "main.e94985d0.css.map": "/static/css/main.e94985d0.css.map",
-    "main.2dd21599.js.map": "/static/js/main.2dd21599.js.map"
+    "main.fa85bf3a.js.map": "/static/js/main.fa85bf3a.js.map"
   },
   "entrypoints": [
     "static/css/main.e94985d0.css",
-    "static/js/main.2dd21599.js"
+    "static/js/main.fa85bf3a.js"
   ]
 }
