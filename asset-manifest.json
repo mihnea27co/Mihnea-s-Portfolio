@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.e94985d0.css",
-    "main.js": "/static/js/main.198df0d2.js",
+    "main.js": "/static/js/main.d99e4216.js",
     "static/media/mihnea_new02.jpg": "/static/media/mihnea_new02.f2727de51dca2c54469b.jpg",
     "static/media/Brandisimo.png": "/static/media/Brandisimo.53ee11aabac0b9eead52.png",
+    "static/media/Memory-Game.png": "/static/media/Memory-Game.97415a964b3539a0d09d.png",
     "static/media/Business_Coaching.png": "/static/media/Business_Coaching.0abf6b44a9865172d34a.png",
     "static/media/Immobilien-Web.png": "/static/media/Immobilien-Web.3059095529c28233d70b.png",
     "static/media/Logic-Pro-X-logo.png": "/static/media/Logic-Pro-X-logo.e907f9682e04e70245b8.png",
@@ -33,10 +34,10 @@
     "static/media/Mann_am_Komputer.svg": "/static/media/Mann_am_Komputer.05492849175c85424c390ee525976c1a.svg",
     "index.html": "/index.html",
     "main.e94985d0.css.map": "/static/css/main.e94985d0.css.map",
-    "main.198df0d2.js.map": "/static/js/main.198df0d2.js.map"
+    "main.d99e4216.js.map": "/static/js/main.d99e4216.js.map"
   },
   "entrypoints": [
     "static/css/main.e94985d0.css",
-    "static/js/main.198df0d2.js"
+    "static/js/main.d99e4216.js"
   ]
 }
