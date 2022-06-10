@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb8cf4be.css",
-    "main.js": "/static/js/main.6e75ff84.js",
+    "main.css": "/static/css/main.a241607f.css",
+    "main.js": "/static/js/main.f96ce1cc.js",
     "static/media/Sobis-Tour.png": "/static/media/Sobis-Tour.8c0e714690fdf9a2ee7c.png",
     "static/media/Memory-Game.png": "/static/media/Memory-Game.c695a9c7744ae0edf8e2.png",
     "static/media/mihnea_profile.jpg": "/static/media/mihnea_profile.72f25aa030318e02822e.jpg",
@@ -12,6 +12,7 @@
     "static/media/eclipse_bg.png": "/static/media/eclipse_bg.aef984539cf888963f06.png",
     "static/media/DashyOmega.png": "/static/media/DashyOmega.3999a71b80e1b9dab5c3.png",
     "static/media/Logic-Pro-X-logo.png": "/static/media/Logic-Pro-X-logo.45c96d484718510a4571.png",
+    "static/media/OnlineCourses.png": "/static/media/OnlineCourses.c17f7988a5bebe864e4b.png",
     "static/media/us-flag.jpeg": "/static/media/us-flag.9ddce35e2ab7bbfd09f9.jpeg",
     "static/media/Business_Coaching.png": "/static/media/Business_Coaching.e03fd16f6099baec9742.png",
     "static/media/react-logo.png": "/static/media/react-logo.1ce80e115e8cf871243b.png",
@@ -34,16 +35,15 @@
     "static/media/javascript-logo.png": "/static/media/javascript-logo.bc2fb85e445cfacb3183.png",
     "static/media/node-js-logo.png": "/static/media/node-js-logo.6f1e9dbac044a064824f.png",
     "static/media/postman-logo.png": "/static/media/postman-logo.5a5496ba34aeca3249bc.png",
-    "static/media/OnlineCourses.png": "/static/media/OnlineCourses.dd0fcd3a124107be0e0d.png",
     "static/media/figma-logo.png": "/static/media/figma-logo.55d4b09875d4049f7cbf.png",
     "static/media/html-logo.png": "/static/media/html-logo.29e0230d05b2a698dd77.png",
     "static/media/Mann_am_Komputer.svg": "/static/media/Mann_am_Komputer.05492849175c85424c390ee525976c1a.svg",
     "index.html": "/index.html",
-    "main.eb8cf4be.css.map": "/static/css/main.eb8cf4be.css.map",
-    "main.6e75ff84.js.map": "/static/js/main.6e75ff84.js.map"
+    "main.a241607f.css.map": "/static/css/main.a241607f.css.map",
+    "main.f96ce1cc.js.map": "/static/js/main.f96ce1cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb8cf4be.css",
-    "static/js/main.6e75ff84.js"
+    "static/css/main.a241607f.css",
+    "static/js/main.f96ce1cc.js"
   ]
 }
