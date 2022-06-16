@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a241607f.css",
-    "main.js": "/static/js/main.f96ce1cc.js",
+    "main.js": "/static/js/main.4a9e923f.js",
     "static/media/Sobis-Tour.png": "/static/media/Sobis-Tour.8c0e714690fdf9a2ee7c.png",
     "static/media/Memory-Game.png": "/static/media/Memory-Game.c695a9c7744ae0edf8e2.png",
     "static/media/mihnea_profile.jpg": "/static/media/mihnea_profile.72f25aa030318e02822e.jpg",
@@ -40,10 +40,10 @@
     "static/media/Mann_am_Komputer.svg": "/static/media/Mann_am_Komputer.05492849175c85424c390ee525976c1a.svg",
     "index.html": "/index.html",
     "main.a241607f.css.map": "/static/css/main.a241607f.css.map",
-    "main.f96ce1cc.js.map": "/static/js/main.f96ce1cc.js.map"
+    "main.4a9e923f.js.map": "/static/js/main.4a9e923f.js.map"
   },
   "entrypoints": [
     "static/css/main.a241607f.css",
-    "static/js/main.f96ce1cc.js"
+    "static/js/main.4a9e923f.js"
   ]
 }
